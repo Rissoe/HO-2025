@@ -49,7 +49,7 @@ nav {
 }
 nav a, nav input {
     float:left;
-    width:60px;
+    width:64px;
     text-align:center;
     text-decoration: none;
     margin: 8px 0 8px 8px;
@@ -92,12 +92,13 @@ main a:hover {
 /*Home*/
 #home {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    width: 95vw;
 }
 #home div {
     display:inline-block;
-    width:8vw;
-    height:10vh;
+    width: 5.2vw;
+    height:14vh;
     color:black;
     background-color: rgb(137, 165, 213);
     border: rgb(0, 0, 100) solid 4px;
