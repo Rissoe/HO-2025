@@ -30,7 +30,7 @@
     <div id="Load"></div>
     <div class="mover">.</div>
     <main class="article2">
-        <form name="QuestionArticle" onsubmit="return Formify()">
+        <form name="QuestionArticle" onsubmit="Formify(event)">
             <h1>Vraag 1: Welk was één van de eerste computers?</h1>
             <input type="radio" id="wrong" name="Q1" value="wrong">
             <label for="html">Jason-DGTH 500</label><br>
@@ -41,47 +41,47 @@
             <input type="radio" id="wrong" name="Q1" value="wrong">
             <label for="javascript">Larry-OSCW 850</label><br><br>
 
-            <h1>Vraag 2: Welk was één van de eerste computers?</h1>
+            <h1>Vraag 2: Waar begon het internet?</h1>
             <input type="radio" id="wrong" name="Q2" value="wrong">
-            <label for="html">Jason-DGTH 500</label><br>
+            <label for="html">Canada</label><br>
+            <input type="radio" id="wrong" name="Q2" value="wrong">
+            <label for="css">Zweden</label><br>
             <input type="radio" id="right" name="Q2" value="right">
-            <label for="css">Elliott-NRDC 401</label><br>
+            <label for="javascript">Verenigde Staten</label><br>
             <input type="radio" id="wrong" name="Q2" value="wrong">
-            <label for="javascript">Marina-ETOC 203</label><br>
-            <input type="radio" id="wrong" name="Q2" value="wrong">
-            <label for="javascript">Larry-OSCW 850</label><br><br>
+            <label for="javascript">Verenigd Koninkrijk</label><br><br>
 
-            <h1>Vraag 3: Welk was één van de eerste computers?</h1>
-            <input type="radio" id="wrong" name="Q3" value="wrong">
-            <label for="html">Jason-DGTH 500</label><br>
+            <h1>Vraag 3: Wat is "packet switching"?</h1>
             <input type="radio" id="right" name="Q3" value="right">
-            <label for="css">Elliott-NRDC 401</label><br>
+            <label for="html">Een bestand opsplitsen in kleine bestanden voor door te sturen.</label><br>
             <input type="radio" id="wrong" name="Q3" value="wrong">
-            <label for="javascript">Marina-ETOC 203</label><br>
+            <label for="css">Een bestand verzenden door het online te zetten en dan door te sturen.</label><br>
             <input type="radio" id="wrong" name="Q3" value="wrong">
-            <label for="javascript">Larry-OSCW 850</label><br><br>
+            <label for="javascript">Een bestand omwisselen met een ander bestand.</label><br>
+            <input type="radio" id="wrong" name="Q3" value="wrong">
+            <label for="javascript">Het is nog steeds een mysterie wat het is.</label><br><br>
 
-            <h1>Vraag 4: Welk was één van de eerste computers?</h1>
+            <h1>Vraag 4: Welk is de belangrijkste oorzaak van het internet?</h1>
             <input type="radio" id="wrong" name="Q4" value="wrong">
-            <label for="html">Jason-DGTH 500</label><br>
+            <label for="html">Lawrence Roberts</label><br>
+            <input type="radio" id="wrong" name="Q4" value="wrong">
+            <label for="css">Een toevallige ontdekking</label><br>
             <input type="radio" id="right" name="Q4" value="right">
-            <label for="css">Elliott-NRDC 401</label><br>
+            <label for="javascript">Het ARPANET</label><br>
             <input type="radio" id="wrong" name="Q4" value="wrong">
-            <label for="javascript">Marina-ETOC 203</label><br>
-            <input type="radio" id="wrong" name="Q4" value="wrong">
-            <label for="javascript">Larry-OSCW 850</label><br><br>
+            <label for="javascript">Het Amerikaanse leger</label><br><br>
 
-            <h1>Vraag 5: Welk was één van de eerste computers?</h1>
+            <h1>Vraag 5: Wie heeft de basis van emails uitgevonden?</h1>
             <input type="radio" id="wrong" name="Q5" value="wrong">
-            <label for="html">Jason-DGTH 500</label><br>
+            <label for="html">Ryan Bolson</label><br>
+            <input type="radio" id="wrong" name="Q5" value="wrong">
+            <label for="css">Kyan Johnson</label><br>
+            <input type="radio" id="wrong" name="Q5" value="wrong">
+            <label for="javascript">Brian Watterson</label><br>
             <input type="radio" id="right" name="Q5" value="right">
-            <label for="css">Elliott-NRDC 401</label><br>
-            <input type="radio" id="wrong" name="Q5" value="wrong">
-            <label for="javascript">Marina-ETOC 203</label><br>
-            <input type="radio" id="wrong" name="Q5" value="wrong">
-            <label for="javascript">Larry-OSCW 850</label><br><br>
+            <label for="javascript">Ray Tomlinson</label><br><br>
 
-            <input type="submit" value="Submit change this button later">
+            <input id="articlesubmit" style="width:auto;font-weight:bolder;" type="submit" value="Submit Answers">
           </form>
     </main>
 </body>
