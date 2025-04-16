@@ -113,6 +113,17 @@ main a:hover {
     margin: 0 auto;
     float: none;
 }
+/*Afbeedlingen*/
+.imagesimages {
+    border: 8px solid rgb(0, 0, 100);
+    border-radius: 10px;
+}
+#imagegrid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    width: 100vw;
+    height: 150vh;
+}
 /*Museum*/
 #museum_1 {
     width:20%;
