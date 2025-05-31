@@ -163,3 +163,15 @@ main a:hover {
     font-size: 1.2rem;
     line-height: 1.8rem;
 }
+
+/*Cartoon*/
+#Cartoon {
+    display: block;
+    margin: auto;
+}
+
+/*Questions*/
+#questions h1 {
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
